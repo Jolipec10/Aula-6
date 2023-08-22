@@ -1,0 +1,20 @@
+/*
+* João Felipe M. F.*
+*
+*/
+
+/*
+* 1.
+  2.
+  3.
+*/
+
+
+let nome = prompt("seu nome");
+let idade = prompt("sua idade");
+nome = "João Felipe";
+idade = 29;
+console.log(typeof nome, idade);
+console.log(typeof nome);
+console.log(typeof idade);
+console.log("Olá João Felipe, você tem 29 anos");
