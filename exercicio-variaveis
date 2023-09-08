@@ -1,20 +1,72 @@
 /*
-* João Felipe M. F.*
+*João Felipe M. F.
 *
+*/
+//Interpretação de código
+/*
+* 1: 10
+10 5
+* 2: 20 10 10
+...
+*/
+
+// 3:
+/*
+let hrsTrabalhadas = prompt("Quantas horas você trabalha por dia?");
+let valorDia = prompt("Quanto você recebe por dia?");
+
+console.log("Você recebe $", valorDia/hrsTrabalhadas, "por hora");
+*/
+
+//Escrita de código
+
+// 1:
+/*
+let nome;
+let idade;
+
+console.log(typeof nome);
+console.log(typeof idade);
+
+
+/*
+*O tipo impresso (undefined) atribuido as duas variáveis foi ocasionando por não atribuir um valor as variáveis (nome e idade)
 */
 
 /*
-* 1.
-  2.
-  3.
-*/
+nome = prompt("Qual é o seu nome?");
+idade = prompt("Qual é a sua idade?");
 
-
-let nome = prompt("seu nome");
-let idade = prompt("sua idade");
-nome = "João Felipe";
-idade = 29;
-console.log(typeof nome, idade);
 console.log(typeof nome);
 console.log(typeof idade);
-console.log("Olá João Felipe, você tem 29 anos");
+
+/*
+*Foi atribuido o tipo de cada variável (string e number) pois, foram atribuidos valores as variáveis
+*/
+/*
+console.log("Olá", nome, "você tem", idade, "anos");
+*/
+
+//2
+/*
+let simNao = prompt("Você está bem hoje?");
+let simNao1 = prompt("Você está em casa?");
+let simNao2 = prompt("Você vai sair a noite?");
+
+console.log("Você está bem hoje?", simNao);
+console.log("Você está em casa?", simNao1);
+console.log("Você vai sair a noite?", simNao2);
+*/
+
+//3
+let a = 30
+let b = 50
+let c 
+
+c = a;
+a = b;
+b = c;
+
+
+console.log("Novo valor de a:", a);
+console.log("Novo valor de b:", b);
